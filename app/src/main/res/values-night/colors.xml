@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="surface">#FF101412</color>
+    <color name="panel_surface">#FF1A211E</color>
+    <color name="on_surface">#FFE2E8E5</color>
+    <color name="on_surface_variant">#FFBBC6C1</color>
+    <color name="primary">#FF80D5C1</color>
+    <color name="on_primary">#FF063A30</color>
+    <color name="outline">#FF52605A</color>
+    <color name="button_surface">#FF203D36</color>
+    <color name="on_button_surface">#FFB7E8DB</color>
+    <color name="android_id_card">#FF4B421B</color>
+    <color name="on_android_id_card">#FFFFECA7</color>
+    <color name="ssaid_item_card">#FF282719</color>
+    <color name="ssaid_item_outline">#FF6A6030</color>
+</resources>

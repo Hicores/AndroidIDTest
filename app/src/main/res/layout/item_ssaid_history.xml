@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/bg_panel"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/historyTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/on_surface_variant"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/historyValues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/on_surface"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/restoreHistoryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="@color/button_surface"
+        android:minHeight="42dp"
+        android:text="@string/restore_old_value"
+        android:textAllCaps="false"
+        android:textColor="@color/on_button_surface"
+        android:textSize="13sp" />
+</LinearLayout>

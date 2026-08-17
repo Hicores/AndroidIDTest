@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">AndroidIDTest</string>
+    <string name="title">设备标识工具</string>
+    <string name="subtitle">设备环境与 SSAID</string>
+    <string name="refresh">刷新</string>
+    <string name="copy">复制</string>
+    <string name="device_info_label">设备环境</string>
+    <string name="device_info_format">制造商: %1$s\n品牌: %2$s\n型号: %3$s\n系统: Android %4$s (API %5$d)\n构建指纹: %6$s</string>
+    <string name="copy_device_info">复制设备环境</string>
+    <string name="ssaid_label">SSAID</string>
+    <string name="ssaid_current_label">当前应用 SSAID</string>
+    <string name="copy_current_ssaid">复制当前应用 SSAID</string>
+    <string name="query_modify_ssaid">查询并修改 SSAID</string>
+    <string name="refresh_ssaid">刷新 SSAID 列表</string>
+    <string name="ssaid_root_hint">读取其他应用的 SSAID 需要 Root 权限。</string>
+    <string name="ssaid_list_empty">点击“查询并修改 SSAID”申请 Root 并读取列表。</string>
+    <string name="ssaid_no_entries">当前 SSAID 文件中没有可显示的应用。</string>
+    <string name="ssaid_root_request_title">申请 Root 权限</string>
+    <string name="ssaid_root_request_message">将使用 su 读取当前用户的 SSAID 文件。请确认授权请求，并按需修改 su 文件名或绝对路径。</string>
+    <string name="su_executable_label">su 文件名或路径</string>
+    <string name="su_executable_required">请输入 su 文件名或路径</string>
+    <string name="request_root">申请权限</string>
+    <string name="root_requesting">正在申请 Root…</string>
+    <string name="root_granted">已获取 Root，发现 %1$d 个应用</string>
+    <string name="root_failed">Root 操作失败</string>
+    <string name="ssaid_loading">正在读取 SSAID…</string>
+    <string name="ssaid_saving">正在保存 SSAID…</string>
+    <string name="ssaid_change_failed">SSAID 修改失败</string>
+    <string name="ssaid_changed">已将 %1$s 的 SSAID 修改为 %2$s</string>
+    <string name="ssaid_change_notice_title">SSAID 已修改</string>
+    <string name="ssaid_change_notice_message">重启手机后新的 SSAID 才会生效。建议同时清除目标 App 的数据，再重新打开应用。</string>
+    <string name="got_it">知道了</string>
+    <string name="ssaid_unchanged">新 SSAID 与当前值相同</string>
+    <string name="edit_ssaid">修改</string>
+    <string name="random_ssaid">随机</string>
+    <string name="history">历史</string>
+    <string name="edit_ssaid_title">修改 %1$s 的 SSAID</string>
+    <string name="new_ssaid_label">新的 SSAID</string>
+    <string name="invalid_ssaid">请输入 16 位十六进制字符</string>
+    <string name="random_ssaid_title">随机 SSAID</string>
+    <string name="random_ssaid_message">将为 %1$s 生成新的 SSAID:
+%2$s
+
+确认写入设置文件？</string>
+    <string name="apply_change">应用修改</string>
+    <string name="history_title">%1$s 的修改历史</string>
+    <string name="history_values">%1$s -&gt; %2$s</string>
+    <string name="restore_old_value">恢复旧值</string>
+    <string name="restore_ssaid_title">恢复 SSAID</string>
+    <string name="restore_ssaid_message">将 SSAID 恢复为:
+%1$s
+
+确认继续？</string>
+    <string name="restore">恢复</string>
+    <string name="ssaid_history_empty">该应用暂无修改历史</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="close">关闭</string>
+    <string name="unavailable">不可用</string>
+    <string name="nothing_to_copy">当前没有可复制的内容</string>
+    <string name="copied">已复制%1$s</string>
+</resources>
