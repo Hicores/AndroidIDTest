@@ -2,6 +2,10 @@
     <string name="app_name">AndroidIDTest</string>
     <string name="title">设备标识工具</string>
     <string name="subtitle">设备环境与 SSAID</string>
+    <string name="github">GitHub</string>
+    <string name="github_url">https://github.com/Hicores/AndroidIDTest</string>
+    <string name="open_github">打开 GitHub 开源地址</string>
+    <string name="open_github_failed">无法打开 GitHub 链接</string>
     <string name="refresh">刷新</string>
     <string name="copy">复制</string>
     <string name="device_info_label">设备环境</string>

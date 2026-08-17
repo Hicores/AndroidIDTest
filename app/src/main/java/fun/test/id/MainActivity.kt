@@ -2,10 +2,13 @@ package `fun`.test.id
 
 import android.app.Activity
 import android.app.AlertDialog
+import android.content.ActivityNotFoundException
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
+import android.content.Intent
 import android.content.pm.PackageManager
+import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.provider.Settings
@@ -69,6 +72,18 @@ class MainActivity : Activity() {
             activeSuExecutable?.let { su ->
                 loadSsaidEntries(su, showLoading = true)
             } ?: openRootRequestDialog()
+        }
+        findViewById<TextView>(R.id.githubLink).setOnClickListener {
+            openGithub()
+        }
+    }
+
+    private fun openGithub() {
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.github_url)))
+        try {
+            startActivity(intent)
+        } catch (_: ActivityNotFoundException) {
+            showMessage(getString(R.string.open_github_failed))
         }
     }
 
